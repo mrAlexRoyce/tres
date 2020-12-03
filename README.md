@@ -1,2 +1,2 @@
-# tres2
+# tres
 GitHub Pages
