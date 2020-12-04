@@ -45,12 +45,13 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 15,
-    "versionPublish": "5.0.29",
+    "uniqCompNum": 17,
+    "versionPublish": "5.2.1",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "canonical-url": false,
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
@@ -84,7 +85,7 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"20\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/color-logo.svg\" layout=\"responsive\" width=\"221.58601171875\" height=\"282.219\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/color-logo.svg\" alt=\"Mobirise\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br><br><br><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"20\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/color-logo.svg\" layout=\"responsive\" width=\"221.58601171875\" height=\"282.219\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/color-logo.svg\" alt=\"Mobirise\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br><br><br><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s8U2S9HdEx",
           "_anchor": "image2-9",
           "_protectedParams": [],
@@ -141,11 +142,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n     <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-pb-2\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-title\">TRES — transparent reliable exchange and storage.</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5 mbr-pt-1 mbr-pb-3\">\n                    <i>Shape your future web project with sharp design and refine coded functions.</i>\n                </h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "si9x3oA03V",
+          "_anchor": "content1-e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-e"
+          "_params": {}
         },
         {
           "alias": false,
@@ -160,11 +161,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><div>&nbsp; &nbsp; Прозрачность, надежность в обмене и хранении.</div><div>Это проводник из прошлого в настоящее. Движение от истоков темной эпохи средневековья, времен крестовых походов к формированию банковских структур и новых реалий торгово-экономических отношений.&nbsp;</div><br><div>&nbsp;&nbsp;&nbsp;Во все времена паломников, путников, их личное имущество, днежные средства и накопленный тяжелым трудом доход подвергались рискам и угрозам. Нападения, грабежи, убийства были обыденным делом.</div><div>&nbsp;&nbsp;&nbsp;&nbsp;В сложные и тяжелые времена на горизонте происходящих тех событий возникают новые особые военно-политические и экономические образования и корпорации — духовно-рыцарские ордена. Они диктуют новый уклад жизни, являются отражением необходимых перемен в экономических реалиях, решают насущные политические и социальные проблемы. Именно с орденами связывают появление и широкое внедрение в торгово-рыночный сегмент вексельной основы как эквивалента материального носителя денежной единицы.</div><div>&nbsp;&nbsp;&nbsp;</div><div>&nbsp;Помощь, защита, обучение — девиз этих перемен.</div><div>Быть сильнее, мудрее, изучать окружающий мир, наполнять его — цель этой работы.</div><div>&nbsp;&nbsp;&nbsp;&nbsp;Осознание, управление, контроль — обретённый результат. Итог — TRES.</div><br><div>Проводник трансформации старого капитала в новый формат через блокчейн. Это группа компаний в четырех криптоориентированных юрисдикциях Швейцарии, Лихтенштейна, ОАЭ, Новой Зеландии, деятельность которых направлена на анализ финансовых рынков, хранение, обмен цифровых активов, контроль, управление имуществом и капиталом.</div></div>\n    </div>\n</section>",
           "_cid": "si9reIOj5R",
+          "_anchor": "content4-b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-b"
+          "_params": {}
         },
         {
           "alias": false,
@@ -172,20 +173,41 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+              "background-color": "@bg-value",
+              "& when (@twoColor)": {
+                "background": "linear-gradient(225deg, @bg-value 0, @twoColorBg 75%)"
+              }
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
+            },
+            ".image-block": {
+              "position": "relative",
+              "z-index": "1",
+              "& when not (@fullWidth)": {
+                "@media (max-width: 767px)": {
+                  "width": "100% !important"
+                }
+              },
+              "& when not (@showText)": {
+                "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)",
+                "border-radius": "10px"
+              }
+            },
+            "img": {
+              "border-radius": "10px",
+              "object-fit": "contain"
             }
           },
-          "_name": "content19",
-          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/logo-1.svg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n                    Article Title with Background Image\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white mbr-pb-3 mbr-pt-1\" mbr-theme-style=\"display-5\">\n                    <i>Shape your future web project with sharp design and refine coded functions.</i>\n                </h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "si9shdofFu",
+          "_name": "image2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#5400d7\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    </mbr-parameters>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid' : fullWidth }\">\n            <div class=\"mbr-row mbr-jc-c\">\n                <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-{{videoSize}}\">\n                    <div class=\"image-block\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/logo-4.svg\" layout=\"responsive\" width=\"347.99629906542054\" height=\"443.281\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo-4.svg\" alt=\"Mobirise\">\n                        </amp-img>\n                        <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                            <p mbr-text class=\"mbr-text mbr-white align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-4': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                                Create awesome and FAST websites!\n                            </p>\n                        </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sicji0qZmX",
+          "_anchor": "image2-g",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content19-c"
+          "_params": {}
         },
         {
           "alias": false,
@@ -195,13 +217,13 @@
             "background-color": "@bgColor"
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text>Что и заложено в логотипе. Он выполнен в строгом соответствии с канонами Европейской геральдики, имеет классическую германскую форму с вырезом щита под копье.<div>Это определяет его строгость и агрессивность двумя верхними углами, а нижним полукругом — мягкость и компромисс: «я наступаю, но готов договариваться». Вырез для копья делает герб открытым, не замкнутым в себе, обобщая внутреннюю часть с окружающим полем (действительностью/информацией), формируя их общий диалог в синтезе друг с другом.</div><div><br></div><div>Венчает герб сверху лозунг компании: «Прозрачные и надежные обмен и хранение». Золотой фон девиза в геральдике означает процветание и богатство, черный цвет букв — надежность, основательность, потенциал (земля в средневековье была мерилом достатка и возможностей того, что на ней можно было сделать). Фраза находится выше всех элементов, что определяет приоритет деловых и профессиональных отношений над всем остальным.</div><div><br></div><div>В историографии поле герба слева вверху определяло партнера или хозяина, в интересах которого существовало образование. В данном случае это видоизмененный Швейцарский герб, так как холдинг находится в правовом поле этого государства и работает в сфере интересов его элит.</div><br><div>Герб Швейцарии изменен с целью исключения возможных правовых издержек (использование государственной символики разрешено силовым структурам и ведомствам). В отличие от швейцарского крест соединен с окружающими полями, сохраняя при этом пропорции исходного, что значительно отличает его от датского (тот ощутимо тоньше и располагается на малиновом поле).</div><div>В верхнем правом углу узнаваемый главный образ Швейцарии — гора Matterhorn. Символ величия, стремления ввысь, развития в сочетании с надежностью, основательностью и сутью духа швейцарского народа. В канонах геральдики это поле твоей семьи, интересы которой ты соблюдаешь. Над горой небосвод в рассвете как начало возрождения с созвездием близнецов — знаком зодиака главы компании.</div><div><br></div><div>Белая нижняя часть с черной крестообразной буквой Т определяет чистоту помыслов и благородства. По центру располагается название компании желтого цвета с окантовкой белого — как сочетание цветов в «богатстве, угодном богу». Это единение тонов в геральдике встречается только в одном случае — у тевтонского ордена, основанного в 1190 германскими рыцарями во времена крестовых походов. Надежность, основательность, долговечность, связанные с ним, определяют качество нашей работы.</div><div><br></div><div>Внизу девиз «Бог с нами» определяет чистоту помыслов и верность делу, которое мы открыли в 2020 году. Такое расположение задает последовательность и значимость приоритетов — наши намерения не выше, чем все остальное на щите: юрисдикция, этика, интересы людей.</div><div>Тransparent reliable exchange and storage. Мы с вами. С уважением.</div><br><br><div><br></div></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text>Что и заложено в логотипе. Он выполнен в строгом соответствии с канонами Европейской геральдики, имеет классическую германскую форму с вырезом щита под копье.<div>Это определяет его строгость и агрессивность двумя верхними углами, а нижним полукругом — мягкость и компромисс: «я наступаю, но готов договариваться». Вырез для копья делает герб открытым, не замкнутым в себе, обобщая внутреннюю часть с окружающим полем (действительностью/информацией), формируя их общий диалог в синтезе друг с другом.</div><div><br></div><div>Венчает герб сверху лозунг компании: «Прозрачные и надежные обмен и хранение». Золотой фон девиза в геральдике означает процветание и богатство, черный цвет букв — надежность, основательность, потенциал (земля в средневековье была мерилом достатка и возможностей того, что на ней можно было сделать). Фраза находится выше всех элементов, что определяет приоритет деловых и профессиональных отношений над всем остальным.</div><div><br></div><div>В историографии поле герба слева вверху определяло партнера или хозяина, в интересах которого существовало образование. В данном случае это видоизмененный Швейцарский герб, так как холдинг находится в правовом поле этого государства и работает в сфере интересов его элит.</div><br><div>Герб Швейцарии изменен с целью исключения возможных правовых издержек (использование государственной символики разрешено силовым структурам и ведомствам). В отличие от швейцарского крест соединен с окружающими полями, сохраняя при этом пропорции исходного, что значительно отличает его от датского (тот ощутимо тоньше и располагается на малиновом поле).</div><div>В верхнем правом углу узнаваемый главный образ Швейцарии — гора Matterhorn. Символ величия, стремления ввысь, развития в сочетании с надежностью, основательностью и сутью духа швейцарского народа. В канонах геральдики это поле твоей семьи, интересы которой ты соблюдаешь. Над горой небосвод в рассвете как начало возрождения с созвездием близнецов — знаком зодиака главы компании.</div><div><br></div><div>Белая нижняя часть с черной крестообразной буквой Т определяет чистоту помыслов и благородства. По центру располагается название компании желтого цвета с окантовкой белого — как сочетание цветов в «богатстве, угодном богу». Это единение тонов в геральдике встречается только в одном случае — у тевтонского ордена, основанного в 1190 германскими рыцарями во времена крестовых походов. Надежность, основательность, долговечность, связанные с ним, определяют качество нашей работы.</div><div><br></div><div>Внизу девиз «Бог с нами» определяет чистоту помыслов и верность делу, которое мы открыли в 2020 году. Такое расположение задает последовательность и значимость приоритетов — наши намерения не выше, чем все остальное на щите: юрисдикция, этика, интересы людей.</div><div>Тransparent reliable exchange and storage. Мы с вами. С уважением.</div><br><br><div><br></div></div>\n    </div>\n</section>",
           "_cid": "si9vNzlEIk",
+          "_anchor": "content4-d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-d"
+          "_params": {}
         },
         {
           "alias": false,
@@ -222,11 +244,11 @@
           "_name": "footer1",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                Meine Website befindet sich im ökologischsten Rechenzentrum in die Schweiz.<br>© 2020 TRES Group GmbH - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
           "_cid": "s8TTSZ4glc",
+          "_anchor": "footer1-a",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-a"
+          "_params": {}
         }
       ]
     }
